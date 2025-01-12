@@ -75,9 +75,9 @@ The application will be accessible at `http://127.0.0.1:5000/`.
 
 ### **Base URL**: `http://127.0.0.1:5000/`
 
-| Endpoint             | Method | Description                     |
-|----------------------|--------|---------------------------------|
-| `/api/generate`      | GET    | Retrieve all resources          |
+| Endpoint | Method | Content-Type     | Payload                      | Description             |
+|----------|--------|------------------|------------------------------|-------------------------|
+| `/genai` | POST   | application/json | ```{"prompt":"Some Text"}``` | Returns generated text. |
 
 ---
 
